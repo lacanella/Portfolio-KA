@@ -1,0 +1,40 @@
+:root {
+  --primary-color: #338af3;
+  --secondary-color: #fcda44;
+}
+
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+  padding-bottom: 15px;
+}
+.links {
+  margin: 20px;
+
+  text-decoration: none;
+  text-transform: capitalize;
+}
+button {
+  margin: 20px;
+  padding: 20px 15px;
+  border-radius: 5px;
+  border: 5px;
+  font-size: 15px;
+}
+a {
+  text-decoration: none;
+}
+.conme {
+  background-color: var(--primary-color);
+}
+.contactme {
+  color: var(--secondary-color);
+}
+.aboutme {
+  color: var(--primary-color);
+}
+.about {
+  background-color: var(--secondary-color);
+}
